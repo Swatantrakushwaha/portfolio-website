@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Swatantra Kushwaha</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+
+<video autoplay muted loop playsinline id="myVideo">
+        <source src="img/bg2.mp4" type="video/mp4">
+        
+    </video>
+
+
+
+
+    <header>
+        <a href="#" class="logo">SWATAN<span>TЯA</span> </a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>SWATANTRA KUSHWAHA</h1>
+            <h3>And I'm a <span id="typing-text"></span></h3>
+            <p>Welcome to my professional portfolio. I build scalable Web applications and engaging user experiences.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/swatantrakushwah/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Swatantrakushwaha"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/indepen_swatantra/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1ICY3M21fg7m9hEyJJxq4flAPd5BN5wmi/view?usp=drive_link" class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/PF.jpg" alt="Profile Image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>Hello, I'm Swatantra.
+
+I am a Computer Science enthusiast passionate about coding and continuous learning. I thrive on solving technical challenges and expanding my skillset in the ever-evolving IT landscape. I am currently looking for opportunities to collaborate, innovate, and grow within the tech community.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+            </div>
+
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                    <li><span>2021 - 2025</span><br>B.Tech in CSE from Technocrats Institute of Technology - BHOPAL (M.P)</li>
+                   
+                </ul>
+            </div>
+
+            <!-- <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2025 - Present</span><br>Freelance Web Developer</li>
+                    <li><span>2024 - 2024</span><br>Internship at Tech Company</li>
+                </ul>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span> Technical Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <h3>Frontend</h3>
+                <ul class="skills-list">
+                    <li><i class="fa-brands fa-html5"></i> HTML / CSS</li>
+                    <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                    <li><i class="fa-brands fa-react"></i> React.js</li>
+                </ul>
+            </div>
+            <div class="skills-box">
+                <h3>Backend</h3>
+                <ul class="skills-list">
+                    <li><i class="fa-brands fa-node"></i> Node.js</li>
+                    <li><i class="fa-solid fa-database"></i> MongoDB / MySQL</li>
+                    <li><i class="fa-brands fa-java"></i> Java / Spring Boot</li>
+                </ul>
+            </div>
+            <div class="skills-box">
+                <h3>Tools</h3>
+                <ul class="skills-list">
+                    <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+                    <li><i class="fa-solid fa-code"></i> VS Code</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/PJ1.png" alt="Project 1">
+                <div class="portfolio-layer">
+                    <h4>Bank Management System</h4>
+                    <p>Description of the project goes here.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/Pj2.png" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4>Ai Text Summaraizer</h4>
+                    <p>Description of the project goes here.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="https://formsubmit.co/swatantrakushwahainfo@gmail.com" method="POST">
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="hidden" name="_next" value="https://yourwebsite.com/index.html">
+
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input-box">
+            <input type="number" name="phone" placeholder="Mobile Number">
+            <input type="text" name="subject" placeholder="Email Subject">
+        </div>
+
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+    <footer>
+        <p>Copyright &copy; 2026 by Swatantra Kushwaha | All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
