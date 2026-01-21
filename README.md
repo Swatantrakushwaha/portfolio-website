@@ -22,7 +22,7 @@ If you want to view this project on your local machine:
 
 1.  Clone the repository:
     ```bash
-    git clone And Pest All Link
+    git clone https://github.com/Swatantrakushwaha/portfolio-website.git
     ```
 2.  Navigate to the project folder.
 3.  Open `index.html` in your web browser.
@@ -30,8 +30,8 @@ If you want to view this project on your local machine:
 ## 📬 Contact Me
 I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
 
-* **Name:** Swatantra
-* **Role:** Aspiring Software Engineer
+* **Name:** Swatantra Kushwaha
+* **Role:**  Full Stack Dev
 * **Email:** swatantrakushwahainfo@gmail.com
 * **LinkedIn:** https://www.linkedin.com/in/swatantrakushwah/
 
