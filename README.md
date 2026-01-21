@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This project showcases my journey as a Computer Science student, my technical skills, and the projects I have built. It serves as a central hub for recruiters and developers to connect with me.
 
 ## 🚀 Live Demo
-**Check out the live website here:** [Live Link](https://swatantrakushwaha.github.io/)
+**Check out the live website here:** [Live Link](https://swatantrakushwaha.github.io/portfolio-website/)
 *(Note: Replace the link above with your actual GitHub Pages URL)*
 
 ## 🛠️ Tech Stack
@@ -15,7 +15,7 @@ Welcome to my personal portfolio website! This project showcases my journey as a
 * **Professional About Section:** A brief introduction to my career goals and passion for coding.
 * **Cinematic Background:** Features a custom background video with a blur effect for a modern aesthetic.
 * **Responsive Design:** Fully optimized for desktop and mobile devices.
-* **Education & Skills:** detailed section highlighting my academic background and technical expertise (Spring Boot, DSA, etc.).
+* **Education & Skills:** detailed section highlighting my academic background and technical expertise.
 
 ## 📂 How to Run Locally
 If you want to view this project on your local machine:
